@@ -1,4 +1,4 @@
-# Test
+# Experiment Design and Model Application 
 
 The scope of the experiment consisted of using the Olist dataset to generate daily forecasts spanning a period of 14 days in the state of Sao Paolo. The SARIMA and FBProphet models were trained on historical sales data beginning on July 7th, 2017 for predictions made between December 1st, 2017 and December, 14th, 2017. 
 
@@ -11,3 +11,5 @@ Each notebook utilizes a configuration file containing arguments that tailor the
 The configuration file contains the file directories used from the Olist dataset and expects a list of product category names to be passed for which data processing operations are conducted on. Depending on the model, the values within the configuration file may vary. For example, in the case of an XGBoost multivariate model, the window_size argument was used to specify the number of historical lags to be generated and used in making a prediction for day t+1. Similarly, the add_date_features arguments if set to ‘true’ will trigger the extraction of date features used by the XGBoost model as opposed to the raw date format that other models like SARIMA work with. 
 
 This approach was used to ensure traceability and consistency of processing rules used to run each model in addition to providing the flexibility to extend the configuration according to needs in future projects. Each time a model was run the performance metrics and parameters used by each model and product category were logged using MLFlow. In the case of SARIMA and FBProphet, performance was logged only for the testing set. Whereas, for XGBoost and LSTM models performance metrics were logged for the validation and testing set to obtain a better visibility on model learning and forecast error. 
+
+The Google Trends series downloaded from the official user interface were only used by the XGBoost and LSTM multivariate models. Therefore, the configuration file does not expect arguments specific to Google Trends series and massaging of data format required. Instead, the integration of the Google Trends series was addressed directly in the Python Jupyter notebooks for the models that used this information.
