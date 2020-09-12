@@ -1,5 +1,7 @@
 # Experiment Design and Model Application 
 
+## Dataset URL: https://www.kaggle.com/olistbr/brazilian-ecommerce
+
 The scope of the experiment consisted of using the Olist dataset to generate daily forecasts spanning a period of 14 days in the state of Sao Paolo. The SARIMA and FBProphet models were trained on historical sales data beginning on July 7th, 2017 for predictions made between December 1st, 2017 and December, 14th, 2017. 
 
 The optimal parameters used by the SARIMA model were determined using a grid search technique whereas the FBProphet model did not contain hyperparameters. The start date of the training dataset used by the XGBoost and LSTM models was the same as in the SARIMA and FBProphet models. The XGBoost and LSTM models additionally contained a validation set used for hyperparameter tuning that began on November 11th, 2017 running until December 1st, 2017 when the first prediction is made. The size of the validation set was determined based on a heuristic trial approach by testing out different sizes. In total, there were six demand forecasting models used to generate forecasts, aggregated at a daily level by product category and each model was run for seven different product categories. 
