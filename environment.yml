@@ -1,0 +1,24 @@
+name: ForecastingRetailSales
+channels:
+- conda-forge
+dependencies:
+- jupyter=1.0.0
+- jupyterlab=2.2.0
+- python=3.7.4
+- scikit-learn=0.23.1
+- seaborn=0.10.1
+- tqdm=4.48.0
+- fbprophet=0.6
+- plotly=4.9.0
+- hyperopt=0.2.4
+- keras=2.3.1
+- yaml=0.2.5
+- statsmodels=0.11.1
+- xlrd=1.2.0          # For reading Excel files
+- mlflow=1.9.1        # For logging experiments
+- pip
+- pip:
+  - pytrends==4.7.3
+#  - fastai==2.1.5
+  - tensorflow==2.3.1
+  - xgboost==1.1.1

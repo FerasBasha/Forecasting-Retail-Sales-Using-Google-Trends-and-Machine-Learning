@@ -1,0 +1,51 @@
+olist:
+    experiment_dates: 
+        train_start: '2017-01-01'
+        test_start: '2018-01-07'
+        test_end: '2018-08-12'
+        cross_val_wk: 4       # <- Length of folds by number of weeks
+    product_categories:
+        - "bed_bath_table"
+        - "health_beauty"
+        - "sports_leisure"
+        - "furniture_decor"
+        - "housewares"
+        - "watches_gifts"
+        - "telephony"
+ 
+breakfast:
+    dataset:
+        store_ids: 
+            2277: 'OH'         # <- Upscale store
+            389: 'KY'          # <- Mainstream store
+            25229: 'TX'        # <- Mainstrea store
+        upc_ids:
+            1600027527: 'cold_cereal'
+            3800031838: 'cold_cereal'
+            1111009477: 'bag_snacks'
+            7192100339: 'frozen_pizza'
+    experiment_dates: 
+        train_start: '2009-01-17'
+        test_start: '2011-01-08'
+        test_end: '2011-12-31'
+        cross_val_wk: 4        # <- Length of folds by number of weeks
+
+xgb:
+    window_size: 52
+    avg_units:
+        - 2
+        - 4
+        - 8
+        - 16
+        - 26
+    gtrends_window_size: 12
+    search_iter: 100
+
+lstm:
+    window_size: 52
+    gtrends_window_size: 52    # <- must match window_size
+    dropout: 0.1
+    units_strategy: 'decrease' # <- options are {decrease, stable}
+    optimizers: 'adam'
+    loss: 'mape'
+    search_iter: 20

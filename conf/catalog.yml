@@ -1,0 +1,42 @@
+olist:
+    base_dir: "data/01_raw"
+    tables:
+        customers:     "olist_customers_dataset.csv"
+        products:      "olist_products_dataset.csv"
+        pc_name_trans: "olist_product_category_name_translation.csv"
+        orders:        "olist_orders_dataset.csv"
+        orderitems:    "olist_order_items_dataset.csv"
+        orderpayments: "olist_order_payments_dataset.csv"
+    google_trends: 
+        dir: "data/03_external/olist"
+    output_dir:
+        dir: "data/02_processed/"
+        transactions: "olist_sales_with_payments.csv"
+        sum_transactions: "olist_sum_sales_with_payments.csv"
+    results:
+        dir: "data/04_results/olist"
+    extra:
+        dir: "data/05_extra/olist"
+        xgb_hyperparams: "xgb_params"
+        xgb_importance: "xgb_importance"
+        lstm_hyperparams: "lstm_params"
+
+breakfast:
+    base_dir: "data/01_raw"
+    xlsx_fname: "dunnhumby_breakfast.xlsx"
+    sheet_names: 
+        transactions: "dh Transaction Data"
+        products:     "dh Products Lookup"
+        store:        "dh Store Lookup"
+        glossary:     "Glossary"
+    output_dir:
+        dir: "data/02_processed/"
+        transactions: "transactions.csv"
+        products:     "products.csv"
+        store:        "store.csv"
+        glossary:     "glossary.csv" 
+        merged:       "merged_data.csv"
+    results:
+        dir: "data/04_results/"
+        sarima: "data/04_results/sarima_results.csv"
+
