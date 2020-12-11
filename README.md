@@ -5,14 +5,14 @@
 |:--:| 
 | *Example of XGBoost predictions for Pretzels (Breakfast At The Frat)* |
 
-## Description 📈
+## Description 🖋️
 
 - This experiment investigates weather the use of Google Trends search index data helps in making better sales foreacsts. 
 - The experiment is applied on two real-world datasets: (1) [Brazilian e-commerce by Olist](https://www.kaggle.com/olistbr/brazilian-ecommerce) and (2) [Breakfast at the Frat by dunnhumby](https://www.dunnhumby.com/source-files/). 
 - Google Trends data used in this experiment is collected from Google's official website. 
 
 
-### Prediction Task 🔮 
+### Prediction Task 📈 
 
 
 The prediction task for the Brazilian e-commerce dataset is to forecast the weekly number of sales transactions by product category. The scope of sales transactions from the Brazilian e-commerce dataset are limited to the Sao Paolo region and for the top 7 selling product categories. Hence, for the Brazilian e-commerce dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run 7 times, once for each product category.
@@ -33,7 +33,7 @@ The prediction task for Breakfast at the Frat dataset is to forecast the weekly 
 |:--:| 
 
 
-### Project Structure 🖋️
+### Project Structure 
 
 ```
 ├── README.md          <- The top-level README for developers using this project.
