@@ -7,7 +7,7 @@
 ## Description 
 
 - This experiment investigates weather the use of Google Trends search index data helps in making better sales foreacsts. 
-- The experiment is applied on two real-world datasets: (1) Brazilian e-commerce by Olist and (2) Breakfast at the Frat by dunnhumby. 
+- The experiment is applied on two real-world datasets: (1) [Brazilian e-commerce by Olist](https://www.kaggle.com/olistbr/brazilian-ecommerce) and (2) [Breakfast at the Frat by dunnhumby](https://www.dunnhumby.com/source-files/). 
 - Google Trends data used in this experiment is collected from Google's official website. 
 
 
