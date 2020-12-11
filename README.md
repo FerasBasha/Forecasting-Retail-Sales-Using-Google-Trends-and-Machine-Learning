@@ -1,4 +1,4 @@
-# Can Google Trends help make better retail sales forecasts? 📈
+# Forecasting Retail Sales Using Google Trends and Machine Learning 📈
 
 | ![image](https://user-images.githubusercontent.com/39706513/101570472-74af5700-39a4-11eb-8811-c0ed824542bd.png) | 
 |:--:| 
