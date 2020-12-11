@@ -12,6 +12,13 @@
 - Google Trends data used in this experiment is collected from Google's official website. 
 
 
+### Models 🎨
+
+- SARIMA (Baseline)
+- FB Prophet (Baseline)
+- XGBoost
+- LSTM
+
 ### Prediction Task 📈 
 
 
@@ -19,13 +26,6 @@ The prediction task for the Brazilian e-commerce dataset is to forecast the week
 
 The prediction task for Breakfast at the Frat dataset is to forecast the weekly number of units sold of 4 items across 3 stores. Therefore, for the Breakfast at the Frat dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run for each product and store combination. In other words, there are a total of 48 models run for the Breakfast at the Frat dataset. The data used from the Breakfast at the Frat dataset include sales history, promotional, product, manufacturer and store information. 
 
-
-### Models 🎨
-
-- SARIMA (Baseline)
-- FB Prophet (Baseline)
-- XGBoost
-- LSTM
 
 ### Experiment Setup 🎯
 
