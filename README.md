@@ -153,7 +153,8 @@ The prediction task for the Brazilian e-commerce dataset is to forecast the week
 The prediction task for Breakfast at the Frat dataset is to forecast the weekly number of units sold of 4 items across 3 stores. Therefore, for the Breakfast at the Frat dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run for each product and store combination. In other words, there are a total of 48 models run for the Breakfast at the Frat dataset. The data used from the Breakfast at the Frat dataset include sales history, promotional, product, manufacturer and store information. 
 
 
-| ![Slide1](https://user-images.githubusercontent.com/39706513/101856789-05686d00-3b34-11eb-847f-e7037476d0c6.JPG) | 
+| <img width="635" alt="Capture" src="https://user-images.githubusercontent.com/39706513/101857744-30ec5700-3b36-11eb-96c1-070538de172b.PNG"> | 
+
 
 
 TODO: explain experimental setup here (take from report)
