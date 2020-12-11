@@ -1,18 +1,18 @@
 # Forecasting Retail Sales Using Google Trends and Machine Learning 
-<div align="center">📈</div>
+
 
 | ![image](https://user-images.githubusercontent.com/39706513/101570472-74af5700-39a4-11eb-8811-c0ed824542bd.png) | 
 |:--:| 
 | *Example of XGBoost predictions for Pretzels (Breakfast At The Frat)* |
 
-## Description 
+## Description 📈
 
 - This experiment investigates weather the use of Google Trends search index data helps in making better sales foreacsts. 
 - The experiment is applied on two real-world datasets: (1) [Brazilian e-commerce by Olist](https://www.kaggle.com/olistbr/brazilian-ecommerce) and (2) [Breakfast at the Frat by dunnhumby](https://www.dunnhumby.com/source-files/). 
 - Google Trends data used in this experiment is collected from Google's official website. 
 
 
-### Prediction Task
+### Prediction Task 🔮 
 
 
 The prediction task for the Brazilian e-commerce dataset is to forecast the weekly number of sales transactions by product category. The scope of sales transactions from the Brazilian e-commerce dataset are limited to the Sao Paolo region and for the top 7 selling product categories. Hence, for the Brazilian e-commerce dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run 7 times, once for each product category.
@@ -20,20 +20,20 @@ The prediction task for the Brazilian e-commerce dataset is to forecast the week
 The prediction task for Breakfast at the Frat dataset is to forecast the weekly number of units sold of 4 items across 3 stores. Therefore, for the Breakfast at the Frat dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run for each product and store combination. In other words, there are a total of 48 models run for the Breakfast at the Frat dataset. The data used from the Breakfast at the Frat dataset include sales history, promotional, product, manufacturer and store information. 
 
 
-### Models
+### Models 🎨
 
 - SARIMA (Baseline)
 - FB Prophet (Baseline)
 - XGBoost
 - LSTM
 
-### Experiment Setup
+### Experiment Setup 🎯
 
 | <img width="635" alt="Capture" src="https://user-images.githubusercontent.com/39706513/101857744-30ec5700-3b36-11eb-96c1-070538de172b.PNG"> | 
 |:--:| 
 
 
-### Project Structure
+### Project Structure 🖋️
 
 ```
 ├── README.md          <- The top-level README for developers using this project.
