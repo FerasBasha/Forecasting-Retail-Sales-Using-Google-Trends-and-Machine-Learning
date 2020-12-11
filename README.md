@@ -4,18 +4,32 @@
 |:--:| 
 | *Example of XGBoost predictions for Pretzels (Breakfast At The Frat)* |
 
-### Experiment Setup
-a
-After exploring the Brazilian e-commerce and the Breakfast at the Frat datasets. the product categories and products to generate forecasts for are selected.
+## Description 
 
-The prediction task for the Brazilian e-commerce dataset is to forecast the weekly number of sales transactions by product category. The scope of sales transactions from the Brazilian dataset are limited to the Sao Paolo region and for the top 7 selling product categories. Hence, for the Brazilian e-commerce dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run 7 times, once for each product category.
+- This experiment investigates weather the use of Google Trends search index data helps in making better sales foreacsts. 
+- The experiment is applied on two real-world datasets: (1) Brazilian e-commerce by Olist and (2) Breakfast at the Frat by dunnhumby. 
+- Google Trends data used in this experiment is collected from Google's official website. 
+
+
+### Prediction Task
+
+
+The prediction task for the Brazilian e-commerce dataset is to forecast the weekly number of sales transactions by product category. The scope of sales transactions from the Brazilian e-commerce dataset are limited to the Sao Paolo region and for the top 7 selling product categories. Hence, for the Brazilian e-commerce dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run 7 times, once for each product category.
 
 The prediction task for Breakfast at the Frat dataset is to forecast the weekly number of units sold of 4 items across 3 stores. Therefore, for the Breakfast at the Frat dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run for each product and store combination. In other words, there are a total of 48 models run for the Breakfast at the Frat dataset. The data used from the Breakfast at the Frat dataset include sales history, promotional, product, manufacturer and store information. 
 
 
+### Models
+
+- SARIMA (Baseline)
+- FB Prophet (Baseline)
+- XGBoost
+- LSTM
+
+### Experiment Setup
+
 | <img width="635" alt="Capture" src="https://user-images.githubusercontent.com/39706513/101857744-30ec5700-3b36-11eb-96c1-070538de172b.PNG"> | 
 |:--:| 
-
 
 
 ### Project Structure
@@ -156,11 +170,3 @@ lstm:
     loss: 'mape'
     search_iter: 20
 ```
-
-
-### Models
-
-- SARIMA (Baseline)
-- FB Prophet (Baseline)
-- XGBoost
-- LSTM
