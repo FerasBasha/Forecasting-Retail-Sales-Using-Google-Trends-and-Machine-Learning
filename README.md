@@ -29,7 +29,7 @@ The prediction task for Breakfast at the Frat dataset is to forecast the weekly 
 
 | <img width="701" alt="olist_cvl" src="https://user-images.githubusercontent.com/39706513/102007764-d3086c80-3cf9-11eb-9409-dc5333ee9626.PNG"> | 
     
-
+|:--:|
 | ![breakfast_cvl](https://user-images.githubusercontent.com/39706513/101996284-0f5aaf00-3c9f-11eb-9053-40b04295d17c.PNG)| 
     
 ### Experiment Setup 
@@ -41,6 +41,7 @@ The prediction task for Breakfast at the Frat dataset is to forecast the weekly 
 |:--:|
 | *[mlfflow](https://mlflow.org/docs/latest/tracking.html) is used to track parameters and performance metrics* |
 
+|:--:|
 | *Data Input and Perfomrance Comparison Framework* |
 | ![Capture](https://user-images.githubusercontent.com/39706513/101948279-c08a1800-3bbf-11eb-9df4-3b1344dd2ce8.PNG) | 
 |:--:| 
