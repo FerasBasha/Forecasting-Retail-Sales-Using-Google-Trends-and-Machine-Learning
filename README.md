@@ -35,7 +35,10 @@ The prediction task for Breakfast at the Frat dataset is to forecast the weekly 
 
 - The experiment utilizes configuraiton & parameter files to pre-process data and determine parameter values required to run the forecasting models. 
 
-| *Experiment Conceptual Diagram* |
+<div align="center">
+  *Experiment Conceptual Diagram*
+</div>
+
 |![ExperimentDesign_MSc](https://user-images.githubusercontent.com/39706513/101991375-4bc7e400-3c7a-11eb-968f-00dbf5d85617.png) | 
 |:--:|
 | *[mlfflow](https://mlflow.org/docs/latest/tracking.html) is used to track parameters and performance metrics* |
