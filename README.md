@@ -29,12 +29,18 @@ The prediction task for Breakfast at the Frat dataset is to forecast the weekly 
   Time-series cross-validation methodology is used to validate the performance of models
 </div>
 
-
+<div align="center">
+  Brazilian e-commerce
+</div>
 | <img width="701" alt="olist_cvl" src="https://user-images.githubusercontent.com/39706513/102007764-d3086c80-3cf9-11eb-9409-dc5333ee9626.PNG"> |
 |:--:|
-    
+
+<div align="center">
+  Breakfast at the Frat
+</div>
 |![breakfast_cvl](https://user-images.githubusercontent.com/39706513/101996284-0f5aaf00-3c9f-11eb-9053-40b04295d17c.PNG)| 
 |:--:|  
+
 ### Experiment Setup 
 
 - The experiment utilizes configuraiton & parameter files to pre-process data and determine parameter values required to run the forecasting models. 
