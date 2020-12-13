@@ -25,11 +25,9 @@ The prediction task for Breakfast at the Frat dataset is to forecast the weekly 
 - XGBoost
 - LSTM
 
-<div align="center">
-  Time-series cross-validation methodology is used to validate the performance of models
-</div>
+Time-series cross-validation methodology is used to validate the performance of models
 
-|:--:| 
+
 | Brazilian e-commerce |
 | <img width="701" alt="olist_cvl" src="https://user-images.githubusercontent.com/39706513/102007764-d3086c80-3cf9-11eb-9409-dc5333ee9626.PNG"> |
 |:--:|
