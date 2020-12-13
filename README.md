@@ -25,21 +25,8 @@
 - XGBoost
 - LSTM
 
-Time-series cross-validation methodology is used to validate the performance of models
+Time-series cross-validation methodology is used to validate the performance of models. 
 
-<div align="center">
-  Brazilian e-commerce
-</div>
-
-| <img width="655" alt="olist_cvl" src="https://user-images.githubusercontent.com/39706513/102008395-0c42db80-3cfe-11eb-8c78-c76a77987f7e.PNG"> |
-|:--:|
-
-<div align="center">
-  Breakfast at the Frat
-</div>
-
-|![breakfast_cvl](https://user-images.githubusercontent.com/39706513/101996284-0f5aaf00-3c9f-11eb-9053-40b04295d17c.PNG)| 
-|:--:|  
 
 ### Experiment Setup 
 
