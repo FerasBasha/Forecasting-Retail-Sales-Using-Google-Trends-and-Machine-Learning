@@ -44,9 +44,12 @@ The prediction task for Breakfast at the Frat dataset is to forecast the weekly 
 | *[mlfflow](https://mlflow.org/docs/latest/tracking.html) is used to track parameters and performance metrics* |
 
 |:--:|
-| *Data Input and Perfomrance Comparison Framework* |
+<div align="center">
+  Data Input and Perfomrance Comparison Framework
+</div>
+
 | ![Capture](https://user-images.githubusercontent.com/39706513/101948279-c08a1800-3bbf-11eb-9df4-3b1344dd2ce8.PNG) | 
-|:--:| 
+
 
 ### Project Structure 
 
