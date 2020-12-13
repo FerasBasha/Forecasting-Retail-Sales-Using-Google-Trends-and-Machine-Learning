@@ -1,37 +1,54 @@
 ## Forecasting Retail Sales Using Google Trends and Machine Learning 
 
-
 | ![image](https://user-images.githubusercontent.com/39706513/101570472-74af5700-39a4-11eb-8811-c0ed824542bd.png) | 
 |:--:| 
 | *Example of XGBoost predictions for Pretzels (Breakfast At The Frat)* |
 
-### Description 🖋️
+### Description 
 
 - This experiment investigates weather the use of Google Trends search index data helps in making better sales foreacsts. 
 - The experiment is applied on two real-world datasets: (1) [Brazilian e-commerce by Olist](https://www.kaggle.com/olistbr/brazilian-ecommerce) and (2) [Breakfast at the Frat by dunnhumby](https://www.dunnhumby.com/source-files/). 
-- Google Trends data used in this experiment is collected from Google's official website. 
+- [Google Trends](https://trends.google.com/trends/?geo=TR) data used in this experiment is collected from the official website.
+- The null hypothesis is that combining Google Trends data with real-world data will help make better sales forecasts. Results are analysed and a paired t-test is conducted to test the null hypothesis. 
+- The source code  of the experiment is made available to the public and can be adapted in future projects. 
 
+### Prediction Task  
 
-### Models 🎨
+The prediction task for the Brazilian e-commerce dataset is to forecast the weekly number of sales transactions by product category. The scope of sales transactions from the Brazilian e-commerce dataset are limited to the Sao Paolo region and for the top 7 selling product categories. Hence, for the Brazilian e-commerce dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run 7 times, once for each product category. 
+
+The prediction task for Breakfast at the Frat dataset is to forecast the weekly number of units sold of 4 items across 3 stores. Therefore, using the Breakfast at the Frat dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run 12 times, once for each product and store combination. The data used from the Breakfast at the Frat dataset include sales history, promotional, product, manufacturer and store information. 
+
+### Models 
 
 - SARIMA (Baseline)
 - FB Prophet (Baseline)
 - XGBoost
 - LSTM
 
-### Prediction Task 📈 
+*Time-series cross-validation methodology is used to validate the performance of models*
+
+| Brazilian e-commerce |
+| ![olist_cvl](https://user-images.githubusercontent.com/39706513/101996270-e508f180-3c9e-11eb-84cf-9a6f035be831.PNG) | 
+
+| Breakfast at the Frat |
+| ![breakfast_cvl](https://user-images.githubusercontent.com/39706513/101996284-0f5aaf00-3c9f-11eb-9053-40b04295d17c.PNG) | 
 
 
-The prediction task for the Brazilian e-commerce dataset is to forecast the weekly number of sales transactions by product category. The scope of sales transactions from the Brazilian e-commerce dataset are limited to the Sao Paolo region and for the top 7 selling product categories. Hence, for the Brazilian e-commerce dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run 7 times, once for each product category.
-
-The prediction task for Breakfast at the Frat dataset is to forecast the weekly number of units sold of 4 items across 3 stores. Therefore, for the Breakfast at the Frat dataset, each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is run for each product and store combination. In other words, there are a total of 48 models run for the Breakfast at the Frat dataset. The data used from the Breakfast at the Frat dataset include sales history, promotional, product, manufacturer and store information. 
 
 
-### Experiment Setup 🎯
 
-| <img width="635" alt="Capture" src="https://user-images.githubusercontent.com/39706513/101857744-30ec5700-3b36-11eb-96c1-070538de172b.PNG"> | 
+### Experiment Setup 
+
+- The experiment utilizes configuraiton & parameter files to pre-process data and determine parameter values required to run the forecasting models. 
+
+| *Experiment Conceptual Diagram* |
+|![ExperimentDesign_MSc](https://user-images.githubusercontent.com/39706513/101991375-4bc7e400-3c7a-11eb-968f-00dbf5d85617.png) | 
+|:--:|
+| *[mlfflow](https://mlflow.org/docs/latest/tracking.html) is used to track parameters and performance metrics* |
+
+| *Data Input and Perfomrance Comparison Framework* |
+| ![Capture](https://user-images.githubusercontent.com/39706513/101948279-c08a1800-3bbf-11eb-9df4-3b1344dd2ce8.PNG) | 
 |:--:| 
-
 
 ### Project Structure 
 

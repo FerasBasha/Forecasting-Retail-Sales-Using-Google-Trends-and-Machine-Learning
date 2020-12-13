@@ -1,0 +1,4 @@
+artifact_location: ../../mlruns/5
+experiment_id: '5'
+lifecycle_stage: active
+name: watches_gifts

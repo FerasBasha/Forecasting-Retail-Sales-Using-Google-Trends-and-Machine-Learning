@@ -1,0 +1,4 @@
+artifact_location: ../../mlruns/2
+experiment_id: '2'
+lifecycle_stage: active
+name: sports_leisure

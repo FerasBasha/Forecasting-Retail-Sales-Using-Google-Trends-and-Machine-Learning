@@ -1,0 +1,4 @@
+artifact_location: ../../mlruns/3
+experiment_id: '3'
+lifecycle_stage: active
+name: furniture_decor

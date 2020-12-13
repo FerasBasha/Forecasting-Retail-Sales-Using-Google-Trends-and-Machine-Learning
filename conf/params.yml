@@ -48,4 +48,4 @@ lstm:
     units_strategy: 'decrease' # <- options are {decrease, stable}
     optimizers: 'adam'
     loss: 'mape'
-    search_iter: 20
+    search_iter: 5
