@@ -27,13 +27,15 @@ The prediction task for Breakfast at the Frat dataset is to forecast the weekly 
 
 ##### Time-series cross-validation methodology is used to validate the performance of models
 
-|:--:|
-| Brazilian e-commerce |
-| ![olist_cvl](https://user-images.githubusercontent.com/39706513/101996270-e508f180-3c9e-11eb-84cf-9a6f035be831.PNG) | 
-
-| Breakfast at the Frat |
-| ![breakfast_cvl](https://user-images.githubusercontent.com/39706513/101996284-0f5aaf00-3c9f-11eb-9053-40b04295d17c.PNG) | 
-
+<p align="center">
+    <b>Brazilian e-commerce:</b><br>
+    | ![olist_cvl](https://user-images.githubusercontent.com/39706513/101996270-e508f180-3c9e-11eb-84cf-9a6f035be831.PNG) | 
+    
+    Breakfast at the Frat 
+    | ![breakfast_cvl](https://user-images.githubusercontent.com/39706513/101996284-0f5aaf00-3c9f-11eb-9053-40b04295d17c.PNG) | 
+    <br><br>
+</p>
+    
 
 
 
