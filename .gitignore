@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 
 .DS_Store
+# Ignore processed files
+data/02_processed/*
+
 
 # C extensions
 *.so
