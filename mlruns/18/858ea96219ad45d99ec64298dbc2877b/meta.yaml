@@ -1,0 +1,15 @@
+artifact_uri: ../../mlruns/18/858ea96219ad45d99ec64298dbc2877b/artifacts
+end_time: 1608610264136
+entry_point_name: ''
+experiment_id: '18'
+lifecycle_stage: active
+name: ''
+run_id: 858ea96219ad45d99ec64298dbc2877b
+run_uuid: 858ea96219ad45d99ec64298dbc2877b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1608610264014
+status: 3
+tags: []
+user_id: feras
