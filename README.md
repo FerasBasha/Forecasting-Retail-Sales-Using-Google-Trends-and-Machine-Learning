@@ -31,7 +31,7 @@ Time-series cross-validation methodology is used to validate the performance of 
   Data Input and Perfomrance Comparison Framework
 </div>
 
-| ![Capture](https://user-images.githubusercontent.com/39706513/101948279-c08a1800-3bbf-11eb-9df4-3b1344dd2ce8.PNG) | 
+| ![Capture](https://user-images.githubusercontent.com/39706513/102944008-9110c080-4487-11eb-9bc8-2339261d1e39.PNG) | 
 |:--:|
 
 ### Experiment Setup 
