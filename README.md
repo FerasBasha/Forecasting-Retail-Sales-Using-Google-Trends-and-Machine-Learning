@@ -1,8 +1,8 @@
 ## Forecasting Retail Sales Using Google Trends and Machine Learning 
 
-| ![image](https://user-images.githubusercontent.com/39706513/101570472-74af5700-39a4-11eb-8811-c0ed824542bd.png) | 
+| <img width="736" alt="KelloggsFrostedFlakes in Texas" src="https://user-images.githubusercontent.com/39706513/103062604-b6332b00-457c-11eb-8928-4df8e6eb2adc.png"> | 
 |:--:| 
-| *Example of XGBoost predictions for Pretzels (Breakfast At The Frat)* |
+| *Example of Predictions using XGBoost for Kellogg's Frosted Flakes Sales in Texas (Breakfast At The Frat)* |
 
 ### Description 
 
