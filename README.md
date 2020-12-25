@@ -9,7 +9,7 @@
 - This experiment investigates the predictive power of Google Trends in retails sales forecasting. 
 - The experiment is applied on two real-world datasets: (1) [Brazilian e-commerce by Olist](https://www.kaggle.com/olistbr/brazilian-ecommerce) and (2) [Breakfast at the Frat by dunnhumby](https://www.dunnhumby.com/source-files/). 
 - [Google Trends](https://trends.google.com/trends/?geo=TR) data used in this experiment is collected from the official website.
-- The null hypothesis Ho: Predictions generated from models that use real world data as input and predictions generated from models that use real world data and Google Trends are statistically identical and belong to the same distribution. A paired t-test is conducted to test the null hypothesis. 
+- The null hypothesis Ho: *Predictions generated from models that use real world data as input and predictions generated from models that use real world data and Google Trends are statistically identical and belong to the same distribution. A paired t-test is conducted to test the null hypothesis.* 
 - The source code  of the experiment is made available to the public and can be adapted in future projects. 
 
 ### Prediction Task  
