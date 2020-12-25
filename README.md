@@ -44,7 +44,7 @@ Time-series cross-validation methodology is used to validate the performance of 
 
 |![ExperimentDesign_MSc](https://user-images.githubusercontent.com/39706513/101991375-4bc7e400-3c7a-11eb-968f-00dbf5d85617.png) | 
 |:--:|
-| *[mlfflow](https://mlflow.org/docs/latest/tracking.html) is used to track parameters and performance metrics* |
+| *[MLflow](https://mlflow.org/docs/latest/tracking.html) is used to track parameters and performance metrics* |
 
 
 ### Project Structure 
