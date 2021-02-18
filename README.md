@@ -19,10 +19,9 @@ The source code of the experiment is made available to the public and can be ada
 
 - The prediction task for Breakfast at the Frat dataset is to forecast the weekly number of units sold of 4 items across 3 stores. Therefore, the Breakfast at the Frat dataset is split into 12 separate datasets and each forecasting model (SARIMA, FBProphet, XGBoost, LSTM) is trained and tested 12 times, once for each product and store combination. The data used from the Breakfast at the Frat dataset include sales history, promotional, product, manufacturer and store information. 
 
-### Models 
+### Data Input and Perfomrance Comparison Framework
 
 <div align="center">
-  Data Input and Perfomrance Comparison Framework
 </div>
 
 | ![Capture](https://user-images.githubusercontent.com/39706513/102944008-9110c080-4487-11eb-9bc8-2339261d1e39.PNG) | 
