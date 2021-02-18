@@ -21,13 +21,6 @@ The source code of the experiment is made available to the public and can be ada
 
 ### Models 
 
-- SARIMA (Baseline)
-- FB Prophet (Baseline)
-- XGBoost
-- LSTM
-
-Time-series cross-validation methodology is used to validate the performance of models. 
-
 <div align="center">
   Data Input and Perfomrance Comparison Framework
 </div>
