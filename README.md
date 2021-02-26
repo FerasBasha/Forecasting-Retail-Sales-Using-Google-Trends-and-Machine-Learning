@@ -2,7 +2,7 @@
 
 | <img width="736" alt="KelloggsFrostedFlakes in Texas" src="https://user-images.githubusercontent.com/39706513/103062604-b6332b00-457c-11eb-8928-4df8e6eb2adc.png"> | 
 |:--:| 
-| *Example of Predictions using XGBoost for Kellogg's Frosted Flakes Sales in Texas (Breakfast At The Frat)* |
+| *Example of Predictions Using XGBoost for Kellogg's Frosted Flakes Sales in Texas (Breakfast At The Frat)* |
 
 ### Summary
 
@@ -32,7 +32,7 @@ The source code of the experiment is made available to the public and can be ada
 
 ### Experiment Setup 
 
-- The experiment utilizes configuraiton & parameter files to pre-process data and determine parameter values required to run the forecasting models. 
+- The experiment utilizes configuration and parameter files to pre-process data and determine parameter values required to run the forecasting models. 
 
 <div align="center">
   Experiment Conceptual Diagram
